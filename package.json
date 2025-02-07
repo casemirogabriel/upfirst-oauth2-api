@@ -1,0 +1,28 @@
+{
+  "name": "upfirst-oauth2-api",
+  "version": "1.0.0",
+  "description": "Server that provides OAuth 2.0 authorization",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/casemirogabriel/upfirst-oauth2-api.git"
+  },
+  "keywords": [],
+  "author": "Gabriel Casemiro Barbosa <casemirogabriel961@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/casemirogabriel/upfirst-oauth2-api/issues"
+  },
+  "homepage": "https://github.com/casemirogabriel/upfirst-oauth2-api#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
